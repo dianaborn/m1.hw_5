@@ -3,9 +3,9 @@ public class Main {
         Boss boss = new Boss();
         boss.setBossHit(30);
         boss.setBosshealth(700);
-        System.out.println("Урон боса " + boss.getBossHit() + "  Здоровье боса " + boss.getBosshealth());
+        System.out.println("Р–РёР·РЅСЊ РІРѕСЃР° " + boss.getBossHit() + "  Р–РёР·РЅСЊ РіРµСЂРѕРµРІ " + boss.getBosshealth());
         for (int i = 0; i < createHeroes().length; i++) {
-            System.out.println("Урон героев: " + createHeroes()[i].getDamage()+ " Здоровье героев: " + createHeroes()[i].getLife() + " Супер способность героев: " + createHeroes()[i].getSuperpower());
+            System.out.println("Г“Г°Г®Г­ ГЈГҐГ°Г®ГҐГў: " + createHeroes()[i].getDamage()+ " Г‡Г¤Г®Г°Г®ГўГјГҐ ГЈГҐГ°Г®ГҐГў: " + createHeroes()[i].getLife() + " Г‘ГіГЇГҐГ° Г±ГЇГ®Г±Г®ГЎГ­Г®Г±ГІГј ГЈГҐГ°Г®ГҐГў: " + createHeroes()[i].getSuperpower());
 
         }
     }
